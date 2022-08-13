@@ -1,0 +1,88 @@
+
+* {
+  font-family: 'Inter';
+}
+
+/* Header */
+nav {
+  background-color: #F55A5A;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: medium;
+  color: #FFFFFF;
+}
+
+nav span {
+  margin-left: 15px;
+}
+
+/*Page Layout*/
+
+section {
+  margin: 2rem 2.5rem 0 2rem;
+}
+
+/* Individual Card */
+
+article {
+  display: flex;
+  margin-bottom: 2.3rem;
+  max-width: 470px;
+}
+
+/* Image */
+
+article img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  margin-right: 1rem;
+  
+}
+
+/* Text */
+
+.locationIcon {
+  color: #F55A5A;
+  margin-right: 6px;
+}
+
+.textContainer {
+  padding: 8px;
+  color: #2B283A;
+}
+
+.visited, .date {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.country, a, .date , .locationIcon {
+  font-size: 10.24px;
+}
+
+a {
+  color: #918E9B;
+}
+
+.country {
+  margin-bottom: 20px;
+  letter-spacing: 0.17em;
+  font-style: normal;
+  line-height: 12px;
+  margin-right: 10px;
+}
+
+.visited {
+  margin-bottom: 20px;
+}
+
+.date {
+  margin-bottom: 10px;
+}
